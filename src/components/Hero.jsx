@@ -9,7 +9,6 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-x-0 top-10 -z-10 mx-auto h-72 max-w-3xl rounded-full bg-primary/20 blur-3xl" />
 
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 px-6 text-center md:flex-row md:items-center md:text-left">
-        {/* Text side */}
         <div className="flex-1 space-y-6">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -81,7 +80,6 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Visual side */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9, x: 20 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}

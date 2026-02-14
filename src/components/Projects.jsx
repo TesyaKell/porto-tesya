@@ -9,9 +9,9 @@ const projects = [
     stack: ["React", "Laravel", "Tailwind"],
     role: "Front-End Implementation & UI Design",
     images: [
-      "/projects/simba-1.png",
-      "/projects/simba-2.png",
-      "/projects/simba-3.png",
+      "/projects/SIMBA1.png",
+      "/projects/SIMBA2.png",
+      "/projects/SIMBA3.png",
     ],
   },
   {
@@ -133,7 +133,6 @@ export default function Projects() {
               className="group relative overflow-hidden rounded-2xl border border-slate-200/80 bg-slate-50/60 p-[1px] shadow-sm shadow-slate-200 transition hover:-translate-y-1.5 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/15"
             >
               <div className="flex h-full flex-col gap-4 rounded-2xl bg-white/90 p-6">
-                {/* Image gallery */}
                 <div className="relative overflow-hidden rounded-xl border border-slate-200/80 bg-slate-900/90">
                   <div className="relative aspect-video w-full">
                     <AnimatePresence mode="wait" initial={false}>
@@ -150,7 +149,6 @@ export default function Projects() {
                     </AnimatePresence>
                   </div>
 
-                  {/* Controls */}
                   <div className="pointer-events-none absolute inset-0 flex items-center justify-between px-2">
                     <button
                       type="button"
@@ -168,7 +166,6 @@ export default function Projects() {
                     </button>
                   </div>
 
-                  {/* Dots */}
                   <div className="pointer-events-none absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-1.5">
                     {project.images.map((img, imgIndex) => (
                       <button
@@ -191,7 +188,6 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Text content */}
                 <div className="flex flex-1 flex-col justify-between gap-4">
                   <div>
                     <div className="mb-3 flex items-center justify-between gap-2">

@@ -4,7 +4,6 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6">
       <div className="max-w-6xl mx-auto space-y-10">
-        {/* Section heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +25,6 @@ export default function About() {
           </p>
         </motion.div>
 
-        {/* Main content card */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +33,6 @@ export default function About() {
           className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-yellow-300 via-amber-400 to-indigo-700 p-[1px] shadow-2xl"
         >
           <div className="relative grid gap-10 bg-slate-950/90 p-10 md:grid-cols-[minmax(0,1.2fr)_minmax(0,1.5fr)]">
-            {/* Profile / visual side */}
             <div className="flex flex-col items-center justify-center gap-6">
               <motion.div
                 initial={{ opacity: 0, scale: 0.9, rotate: -4 }}
@@ -54,7 +51,6 @@ export default function About() {
                   />
                 </div>
 
-                {/* Floating badge */}
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -90,7 +86,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* Text / description side */}
             <div className="flex flex-col justify-center gap-6 text-slate-50">
               <div className="space-y-3">
                 <h3 className="text-2xl md:text-3xl font-bold tracking-tight">
@@ -132,7 +127,6 @@ export default function About() {
                 </div>
               </div>
 
-              {/* Skill chips & actions */}
               <div className="flex flex-wrap items-center gap-3 md:gap-4">
                 <span className="rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs md:text-sm font-medium text-slate-50 backdrop-blur">
                   Laravel
@@ -173,7 +167,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* decorative blobs */}
             <div className="pointer-events-none absolute -top-24 -right-20 h-64 w-64 rounded-full bg-yellow-400/25 blur-3xl" />
             <div className="pointer-events-none absolute bottom-0 -left-24 h-72 w-72 rounded-full bg-indigo-900/40 blur-3xl" />
           </div>

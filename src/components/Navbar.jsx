@@ -25,7 +25,6 @@ export default function Navbar() {
           </div>
         </a>
 
-        {/* Desktop nav */}
         <div className="hidden items-center gap-1 rounded-full bg-slate-50/80 px-2 py-1 text-sm font-medium text-slate-600 shadow-sm shadow-slate-200 md:flex">
           {links.map((link) => (
             <a
@@ -38,7 +37,6 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Mobile menu button */}
         <button
           type="button"
           onClick={() => setIsOpen((prev) => !prev)}
@@ -62,7 +60,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile nav */}
       {isOpen && (
         <div className="border-t border-slate-200 bg-white/95 backdrop-blur-md md:hidden">
           <div className="mx-auto flex max-w-6xl flex-col gap-1 px-6 py-3 text-sm font-medium">
