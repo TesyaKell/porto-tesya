@@ -1,6 +1,6 @@
 const skills = [
   "HTML & Semantic Markup",
-  "CSS / Tailwind CSS",
+  "CSS / Tailwind CSS / Bootstrap CSS",
   "JavaScript (ES6+)",
   "React & Component Design",
   "Responsive Web Design",

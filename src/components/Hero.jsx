@@ -40,7 +40,7 @@ export default function Hero() {
             className="max-w-xl text-base text-slate-200/90 md:text-lg"
           >
             Front-End Developer &amp; Informatics Student who loves crafting
-            clean, responsive interfaces and smooth user experiences using React
+            clean, responsive interfaces and smooth user experiences using Laravel, React,
             and modern web technologies.
           </motion.p>
 
@@ -75,7 +75,7 @@ export default function Hero() {
               Focused on front-end, UI, and interactions
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
-              ✨ React · Tailwind · Framer Motion
+              ✨ Laravel · React · Tailwind · Bootstrap 
             </span>
           </motion.div>
         </div>
@@ -109,11 +109,11 @@ export default function Hero() {
                 <div className="grid grid-cols-3 gap-2 text-[11px]">
                   <div className="rounded-2xl bg-slate-900/80 px-3 py-2">
                     <p className="text-slate-400">Main Stack</p>
-                    <p className="font-semibold">React · Tailwind</p>
+                    <p className="font-semibold">Laravel · React · Tailwind</p>
                   </div>
                   <div className="rounded-2xl bg-slate-900/80 px-3 py-2">
                     <p className="text-slate-400">Experience</p>
-                    <p className="font-semibold">IT System Support</p>
+                    <p className="font-semibold">IT System Support · OOP</p>
                   </div>
                   <div className="rounded-2xl bg-slate-900/80 px-3 py-2">
                     <p className="text-slate-400">Focus</p>

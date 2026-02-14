@@ -5,7 +5,7 @@ const projects = [
   {
     title: "SIMBA Web App",
     description:
-      "Inventory management system to help track stock, suppliers, and transactions in a more organized way.",
+      "A web-based inventory and loan management system designed to record inter-department equipment borrowing, featuring scheduling and return reminders to ensure organized tracking and proper item placement.",
     stack: ["React", "Laravel", "Tailwind"],
     role: "Front-End Implementation & UI Design",
     images: [
@@ -17,8 +17,8 @@ const projects = [
   {
     title: "ReUseMart E-Commerce",
     description:
-      "Mobile & web-based reservation platform that makes it easier for customers to book salon services.",
-    stack: ["Flutter", "REST API"],
+      "A mobile and web-based e-commerce platform for buying and selling pre-owned items in good condition, featuring delivery services to simplify transactions between sellers and buyers.",
+    stack: ["Laravel", "Bootstrap", "Flutter", "REST API"],
     role: "Prototype & UX Flow",
     images: [
       "/projects/reusemart1.jpg",
@@ -29,8 +29,8 @@ const projects = [
   {
     title: "Desain UI/UX MentalKu App",
     description:
-      "Mobile & web-based reservation platform that makes it easier for customers to book salon services.",
-    stack: ["Flutter", "REST API"],
+      "A UI/UX design project for a mental health self-care application, created in Figma to help users manage and improve their mental well-being independently.",
+    stack: ["Figma"],
     role: "Prototype & UX Flow",
     images: [
       "/projects/mentalku1.png",
@@ -42,8 +42,8 @@ const projects = [
   {
     title: "Math Psychotest",
     description:
-      "Mobile & web-based reservation platform that makes it easier for customers to book salon services.",
-    stack: ["Flutter", "REST API"],
+      "A web-based psychotest application that helps users assess their mathematical abilities through interactive tests.",
+    stack: ["React", "Bootstrap CSS"],
     role: "Prototype & UX Flow",
     images: [
       "/projects/math1.png",
@@ -69,8 +69,8 @@ const projects = [
   {
     title: "Apotek Atma",
     description:
-      "Mobile & web-based reservation platform that makes it easier for customers to book salon services.",
-    stack: ["Flutter", "REST API"],
+      "A web-based reservation platform that allows customers to purchase medicines online and book pharmacy services more conveniently.",
+    stack: ["Laravel", "Bootstrap CSS"],
     role: "Prototype & UX Flow",
     images: [
       "/projects/apotek-1.png",

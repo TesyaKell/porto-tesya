@@ -92,7 +92,7 @@ export default function About() {
                   Building experiences, not just interfaces.
                 </h3>
                 <p className="text-sm md:text-base text-slate-200/90 leading-relaxed">
-                  I enjoy working with modern tools like React and Tailwind CSS to
+                  I enjoy working with modern tools like Laravel, React, Bootstrap CSS, and Tailwind CSS to
                   craft responsive layouts, reusable components, and smooth
                   interactions. For me, a good product is not only visually
                   appealing, but also accessible, fast, and pleasant to use.
