@@ -25,11 +25,11 @@ export default function Contact() {
                   <span className="font-medium">Email</span>
                   <span className="text-xs text-slate-200">
                     
-                    <span className="underline">tesya@email.com</span>
+                    <span className="underline">tesyarakhel@email.com</span>
                   </span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/tesya"
+                  href="https://www.linkedin.com/in/tesya-rakhel"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-between gap-3 rounded-xl bg-white/5 px-4 py-3 text-left transition hover:bg-white/15"
