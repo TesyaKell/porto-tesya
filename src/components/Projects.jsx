@@ -204,14 +204,15 @@ export default function Projects() {
 
                   <button
                     onClick={() => handlePrev(project.title)}
-                    className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/50 px-2"
+                    className="cursor-pointer absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/50 px-2"
                   >
                     ‹
                   </button>
 
                   <button
                     onClick={() => handleNext(project.title)}
-                    className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/50 px-2"
+                    className="cursor-pointer absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/50 px-2"
+
                   >
                     ›
                   </button>
