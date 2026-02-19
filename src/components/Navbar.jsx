@@ -13,13 +13,10 @@ export default function Navbar() {
     { href: "#contact", label: "Contact" },
   ];
 
-  /* ===============================
-     Detect section while scrolling
-  =============================== */
   useEffect(() => {
-    const sections = links.map((l) =>
-      document.querySelector(l.href)
-    );
+    const sections = links
+      .map((l) => document.querySelector(l.href))
+      .filter(Boolean);
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -30,15 +27,16 @@ export default function Navbar() {
         });
       },
       {
-        rootMargin: "-40% 0px -50% 0px",
-        threshold: 0.1,
+        rootMargin: "-30% 0px -60% 0px",
+        threshold: 0,
       }
     );
 
-    sections.forEach((sec) => sec && observer.observe(sec));
+    sections.forEach((section) => observer.observe(section));
 
     return () => observer.disconnect();
   }, []);
+
 
   useEffect(() => {
     const onScroll = () => {
@@ -55,8 +53,8 @@ export default function Navbar() {
     <nav
       className={`fixed inset-x-0 top-0 z-50 backdrop-blur-xl transition-colors duration-300 ${
         scrolled
-          ? "border-b border-slate-200/80 bg-white/90 shadow-md shadow-slate-200/70"
-          : "border-b border-transparent bg-white/70"
+        ? "border-b border-white bg-slate-950/85 shadow-lg shadow-black/30"
+        : "border-b border-transparent bg-white/30"
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
@@ -69,16 +67,16 @@ export default function Navbar() {
           </div>
 
           <div className="leading-tight">
-            <p className="text-sm font-semibold text-slate-900">
+            <p className="text-sm font-semibold text-white">
               Tesya Rakhel
             </p>
-            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-yellow-400">
               Front-End Developer
             </p>
           </div>
         </a>
 
-        <div className="relative hidden items-center gap-1 rounded-full border border-slate-200/70 bg-slate-50/80 p-1 shadow-sm shadow-slate-100 md:flex">
+        <div className="relative hidden items-center gap-1 rounded-full border border-white/20 bg-white/10 p-1 shadow-sm shadow-slate-100 md:flex">
           {links.map((link) => {
             const isActive = active === link.href;
 
@@ -86,12 +84,13 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
+                onClick={() => setActive(link.href)}
                 className={`relative rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-300
-                ${
-                  isActive
-                    ? "text-primary"
-                    : "text-slate-600 hover:text-primary"
-                }`}
+                  ${
+                    isActive
+                      ? "text-primary"
+                      : "text-slate-600 hover:text-primary"
+                  }`}
               >
                 {isActive && (
                   <span className="absolute inset-0 -z-10 rounded-full bg-white shadow-sm transition-all duration-300" />

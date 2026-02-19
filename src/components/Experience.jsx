@@ -202,7 +202,7 @@ const organizationalExperiences = [
 export default function Experience() {
   return (
     <section
-      id="about"
+      id="experience"
       className="relative overflow-hidden bg-slate-950 py-24 px-6"
     >
       <div className="pointer-events-none absolute inset-x-0 -top-24 -z-10 mx-auto h-72 max-w-3xl rounded-full bg-primary/18 blur-3xl" />
