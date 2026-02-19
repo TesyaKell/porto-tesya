@@ -4,7 +4,7 @@ const experiences = [
   {
     title: "IT System Support Plantation",
     company: "Internship at Great Giant Foods (GGF)",
-    image: "/ggf.png", // ← logo company
+    image: "/ggf.png",
     period: "September 2025 – Present",
     location: "Lampung, Indonesia",
     highlight:
@@ -25,14 +25,13 @@ const experiences = [
     period: "February 2025 – July 2025",
     location: "Yogyakarta, Indonesia",
     highlight:
-      "Designing and building web & mobile prototypes for real use cases.",
+       "Mentoring students in object-oriented programming while strengthening their technical understanding through structured learning support.",
     badge: "Past Role",
     badgeColor:
       "bg-sky-100 text-sky-800 border border-sky-200 shadow-sm shadow-sky-100/80",
     points: [
-      "Developed web-based and mobile prototypes such as SIMBA, ReUseMart, and salon booking systems.",
-      "Created UI/UX designs in Figma, focusing on user flow, usability, and visual consistency.",
-      "Worked in teams to present solutions, document systems, and align expectations with stakeholders.",
+      "Instructed and mentored 300+ students in OOP principles.",
+      "Created comprehensive learning modules to enhance student understanding.",
     ],
   },
   {
@@ -42,15 +41,15 @@ const experiences = [
     period: "February 2024 – June 2024",
     location: "Yogyakarta, Indonesia",
     highlight:
-      "Designing and building web & mobile prototypes for real use cases.",
+      "Supporting children's learning through adaptive teaching methods while strengthening communication and engagement skills.",
     badge: "Past Role",
     badgeColor:
       "bg-sky-100 text-sky-800 border border-sky-200 shadow-sm shadow-sky-100/80",
     points: [
-      "Developed web-based and mobile prototypes such as SIMBA, ReUseMart, and salon booking systems.",
-      "Created UI/UX designs in Figma, focusing on user flow, usability, and visual consistency.",
-      "Worked in teams to present solutions, document systems, and align expectations with stakeholders.",
-    ],
+      "Taught and guided 10+ kindergarten to elementary school students, adapting learning approaches based on individual needs and learning styles.",
+      "Assisted students in understanding school materials and completing assignments across English and general subjects, improving comprehension and confidence.",
+      "Developed strong communication and engagement skills by creating interactive learning methods to maintain children's focus and interest."
+    ]
   },
   {
     title: "English Tutor",
@@ -59,15 +58,15 @@ const experiences = [
     period: "November 2023 – January 2024",
     location: "Yogyakarta, Indonesia",
     highlight:
-      "Designing and building web & mobile prototypes for real use cases.",
+  "Teaching English through structured and adaptive learning approaches while strengthening communication and mentoring skills.",
     badge: "Past Role",
     badgeColor:
       "bg-sky-100 text-sky-800 border border-sky-200 shadow-sm shadow-sky-100/80",
     points: [
-      "Developed web-based and mobile prototypes such as SIMBA, ReUseMart, and salon booking systems.",
-      "Created UI/UX designs in Figma, focusing on user flow, usability, and visual consistency.",
-      "Worked in teams to present solutions, document systems, and align expectations with stakeholders.",
-    ],
+      "Taught English to 30+ students from elementary to high school levels, adapting teaching methods to different ages and learning abilities.",
+      "Delivered structured lessons in grammar, pronunciation, and vocabulary to strengthen students’ language comprehension and communication skills.",
+      "Developed strong mentoring and engagement skills by understanding students’ learning challenges and creating interactive learning environments."
+    ]
   },
 ];
 
@@ -77,7 +76,7 @@ const organizationalExperiences = [
     organization: "Senat Mahasiswa FTI UAJY",
     period: "October 2023 – October 2024",
     location: "Yogyakarta, Indonesia",
-    focus: "Supporting events, coordination, and documentation within student communities.",
+    focus: "Supporting organizational workflows through coordination, structured documentation, and effective communication among members.",
     tag: "Organizational",
     colors: {
       from: "from-violet-500/80",
@@ -85,9 +84,9 @@ const organizationalExperiences = [
       badge: "bg-violet-100 text-violet-800 border border-violet-200",
     },
     points: [
-      "Helped coordinate student events and internal meetings in small teams.",
-      "Contributed to documentation, note-taking, and follow-up after discussions.",
-      "Collaborated with different divisions to align schedules and tasks.",
+      "Manage and organize 50+ members in the organization.",
+      "Create letters for each organizational activity and a statement of student organization activity.",
+      "Leading several events within the organization.",
     ],
   },
   {
@@ -95,7 +94,7 @@ const organizationalExperiences = [
     organization: "Sparkfest 12",
     period: "January 2024 - June 2024",
     location: "Yogyakarta, Indonesia",
-    focus: "Hands-on experience managing timelines, communication, and execution for events.",
+    focus: "Event administration, stakeholder coordination, and reporting.",
     tag: "Committee",
     colors: {
       from: "from-amber-400/90",
@@ -103,13 +102,13 @@ const organizationalExperiences = [
       badge: "bg-amber-100 text-amber-800 border border-amber-200",
     },
     points: [
-      "Participated in committees handling registration, liaison, and logistic support.",
-      "Worked with cross-functional teams to ensure events run smoothly.",
-      "Built confidence in communication, coordination, and problem-solving under time pressure.",
-    ],
+      "Collaborated with external vendors to manage online concert ticket sales partnerships.",
+      "Prepared and presented ticket sales performance reports to stakeholders for decision-making.",
+      "Coordinated with the finance team to monitor ticket revenue and operational expenses.",
+    ]
   },
   {
-    title: "Secretariat Member Webinar Financial Planning dan Potensi Pasar Modal Indonesia",
+    title: "Secretariat Member Webinar \"Financial Planning dan Potensi Pasar Modal Indonesia\"",
     organization: "Senat Mahasiswa FTI UAJY",
     period: "January 2024 - March 2024",
     location: "Yogyakarta, Indonesia",
@@ -121,9 +120,9 @@ const organizationalExperiences = [
       badge: "bg-amber-100 text-amber-800 border border-amber-200",
     },
     points: [
-      "Participated in committees handling registration, liaison, and logistic support.",
-      "Worked with cross-functional teams to ensure events run smoothly.",
-      "Built confidence in communication, coordination, and problem-solving under time pressure.",
+      "Responding to participant inquiries about the event via whatsapp.",
+      "Designing and distributing certificates to participants who meet the requirements.",
+      "Responding to participant inquiries about the event via whatsapp.",
     ],
   },
   {
@@ -131,7 +130,7 @@ const organizationalExperiences = [
     organization: "Senat Mahasiswa FTI UAJY",
     period: "August 2023 - November 2023",
     location: "Yogyakarta, Indonesia",
-    focus: "Hands-on experience managing timelines, communication, and execution for events.",
+    focus: "Leadership, Coordination, and Community Engagement",
     tag: "Committee",
     colors: {
       from: "from-amber-400/90",
@@ -139,35 +138,36 @@ const organizationalExperiences = [
       badge: "bg-amber-100 text-amber-800 border border-amber-200",
     },
     points: [
-      "Participated in committees handling registration, liaison, and logistic support.",
-      "Worked with cross-functional teams to ensure events run smoothly.",
-      "Built confidence in communication, coordination, and problem-solving under time pressure.",
-    ],
+      "Identified community and orphanage needs to plan targeted social assistance programs.",
+      "Oversaw the end-to-end execution of activities, from preparation to evaluation.",
+      "Coordinated with the organizing committee to ensure smooth implementation and timely completion of the program.",
+    ]
   },
   {
     title: "Members of Social Divisions of Society",
     organization: "Senat Mahasiswa FTI UAJY",
     period: "October 2022 - October 2023",
     location: "Yogyakarta, Indonesia",
-    focus: "Hands-on experience managing timelines, communication, and execution for events.",
-    tag: "Committee",
+    focus: "Leadership, Event/Project Coordination, and Stakeholder Communication",
+    tag: "Organizational",
     colors: {
-      from: "from-amber-400/90",
-      to: "to-pink-500/90",
-      badge: "bg-amber-100 text-amber-800 border border-amber-200",
+      from: "from-violet-500/80",
+      to: "to-sky-400/80",
+      badge: "bg-violet-100 text-violet-800 border border-violet-200",
     },
     points: [
-      "Participated in committees handling registration, liaison, and logistic support.",
-      "Worked with cross-functional teams to ensure events run smoothly.",
-      "Built confidence in communication, coordination, and problem-solving under time pressure.",
-    ],
+      "Led and coordinated social service programs as Secretary, managing 50+ committee members to ensure smooth planning and execution.",
+      "Coordinated event operations for the 'Green Action' program, supervising 30+ committees and volunteers to deliver successful activities.",
+      "Facilitated student discussions as a Moderator at the 'Forum Lesehan', effectively communicating and channeling student aspirations to faculty stakeholders.",
+    ]
+
   },
   {
     title: "Event Coordinator - Green Action #11",
     organization: "Senat Mahasiswa FTI UAJY",
     period: "January 2023 - April 2023",
     location: "Yogyakarta, Indonesia",
-    focus: "Hands-on experience managing timelines, communication, and execution for events.",
+    focus: "Event Operations Coordination and Cross-Team Collaboration.",
     tag: "Committee",
     colors: {
       from: "from-amber-400/90",
@@ -175,17 +175,17 @@ const organizationalExperiences = [
       badge: "bg-amber-100 text-amber-800 border border-amber-200",
     },
     points: [
-      "Participated in committees handling registration, liaison, and logistic support.",
-      "Worked with cross-functional teams to ensure events run smoothly.",
-      "Built confidence in communication, coordination, and problem-solving under time pressure.",
-    ],
+      "Coordinated end-to-end event operations, including scheduling, logistics, and equipment preparation to ensure smooth execution.",
+      "Collaborated with cross-functional teams to manage event requirements and maintain effective communication throughout the process.",
+      "Managed event budgets and resolved operational issues during preparation and execution to keep activities aligned with plans and constraints.",
+    ]
   },
   {
     title: "Secretary - Social Service Event",
     organization: "Senat Mahasiswa FTI UAJY",
     period: "November 2022 - December 2022",
     location: "Yogyakarta, Indonesia",
-    focus: "Hands-on experience managing timelines, communication, and execution for events.",
+    focus: "Administrative Coordination, Proposal Development, and Budget Planning.",
     tag: "Committee",
     colors: {
       from: "from-amber-400/90",
@@ -193,19 +193,21 @@ const organizationalExperiences = [
       badge: "bg-amber-100 text-amber-800 border border-amber-200",
     },
     points: [
-      "Participated in committees handling registration, liaison, and logistic support.",
-      "Worked with cross-functional teams to ensure events run smoothly.",
-      "Built confidence in communication, coordination, and problem-solving under time pressure.",
+      "Developed financial proposals for budget planning and fundraising.",
+      "Composed event proposals detailing the activity plan and objectives",
+      "Developed financial proposals for budget planning and fundraising.",
     ],
   },
 ];
 export default function Experience() {
   return (
     <section
-      id="experience"
-      className="relative overflow-hidden bg-slate-50 py-20"
+      id="about"
+      className="relative overflow-hidden bg-slate-950 py-24 px-6"
     >
-      <div className="pointer-events-none absolute inset-x-0 -top-40 -z-10 h-72 bg-gradient-to-b from-primary/10 via-transparent to-transparent blur-3xl" />
+      <div className="pointer-events-none absolute inset-x-0 -top-24 -z-10 mx-auto h-72 max-w-3xl rounded-full bg-primary/18 blur-3xl" />
+      <div className="pointer-events-none absolute -left-28 bottom-0 -z-10 h-72 w-72 rounded-full bg-yellow-400/18 blur-3xl" />
+      <div className="pointer-events-none absolute -right-32 top-10 -z-10 h-72 w-72 rounded-full bg-indigo-700/40 blur-3xl" />
 
       <div className="mx-auto max-w-6xl px-6">
         <motion.div
@@ -216,13 +218,13 @@ export default function Experience() {
           className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between"
         >
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.26em] text-sky-500">
+            <p className="text-xs font-semibold uppercase tracking-[0.26em] text-yellow-400">
               Work Experience
             </p>
-            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-slate-900 md:text-[2.2rem]">
+            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-white md:text-[2.2rem]">
               Where I&apos;ve been growing
             </h2>
-            <p className="mt-3 max-w-xl text-sm leading-relaxed text-slate-600">
+            <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/80">
               A mix of professional and project-based experience, combining
               technical skills with communication and problem-solving in real
               environments.
@@ -234,7 +236,7 @@ export default function Experience() {
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
               Currently working in IT System Support
             </span>
-            <p className="text-[11px] md:text-right">
+            <p className="text-[11px] md:text-right text-slate-300">
               Comfortable collaborating with both technical and non-technical teams.
             </p>
           </div>
@@ -253,7 +255,7 @@ export default function Experience() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.25 }}
                 transition={{ duration: 0.55, delay: index * 0.07 }}
-                className="group relative flex flex-col gap-5 rounded-2xl border border-slate-200/70 bg-white/80 backdrop-blur-sm p-6 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10"
+                className="group relative flex flex-col gap-5 rounded-2xl border border-slate-200/70 bg-white backdrop-blur-sm p-6 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10"
               >
                 <div className="pointer-events-none absolute -left-[32px] top-7 flex h-6 w-6 items-center justify-center rounded-full border border-slate-200 bg-white shadow-sm">
                   <span
@@ -264,7 +266,6 @@ export default function Experience() {
                 </div>
 
                 <div className="flex items-start justify-between gap-4">
-                  {/* LEFT SIDE */}
                   <div className="flex items-start gap-4">
                     <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-white shadow-sm">
                       <img
@@ -284,12 +285,12 @@ export default function Experience() {
                       </p>
 
                       <p className="mt-1 text-xs text-slate-400">
-                        {exp.period} · {exp.location}
+                        {exp.period}
                       </p>
+                      <p className="text-xs text-slate-400">{exp.location}</p>
                     </div>
                   </div>
 
-                  {/* BADGE */}
                   <span
                     className={`inline-flex items-center rounded-full px-3 py-1 text-[11px] font-medium ${exp.badgeColor}`}
                   >
@@ -298,7 +299,7 @@ export default function Experience() {
                 </div>
 
                 <div className="mt-2 grid gap-3 text-sm text-slate-700 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1.6fr)] md:gap-4">
-                  <p className="rounded-xl border border-slate-100 bg-slate-50/70 px-4 py-3 text-[13px] leading-relaxed text-slate-700">
+                  <p className="rounded-xl border border-slate-100 bg-blue-50 px-4 py-3 text-[13px] leading-relaxed text-slate-700">
                     {exp.highlight}
                   </p>
                   <div>
@@ -325,17 +326,17 @@ export default function Experience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.65 }}
-          className="mt-14 rounded-2xl border border-slate-200/70 bg-white/80 p-6 shadow-sm shadow-slate-100"
+          className="mt-14 rounded-2xl border border-slate-200/70 bg-white/20 p-6 shadow-sm shadow-slate-100"
         >
           <div className="mb-6 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.26em] text-sky-600">
+              <p className="text-xs font-semibold uppercase tracking-[0.26em] text-yellow-400">
                 Organizational Experience
               </p>
-              <h3 className="mt-2 text-xl font-semibold tracking-tight text-slate-900 md:text-[1.45rem]">
+              <h3 className="mt-2 text-xl font-semibold tracking-tight text-white md:text-[1.45rem]">
                 Organizational roles that shape my soft skills
               </h3>
-              <p className="mt-2 max-w-xl text-xs sm:text-sm leading-relaxed text-slate-600">
+              <p className="mt-2 max-w-xl text-xs sm:text-sm leading-relaxed text-white/80">
                 Experiences in organizations and committees that help me build
                 communication, teamwork, and coordination skills while working
                 with different people.
@@ -372,7 +373,10 @@ export default function Experience() {
                         {org.organization}
                       </p>
                       <p className="mt-1 text-[11px] text-slate-400">
-                        {org.period} · {org.location}
+                        {org.period}
+                      </p>
+                      <p className="text-[11px] text-slate-400">
+                        {org.location}
                       </p>
                     </div>
                     <span

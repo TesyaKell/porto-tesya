@@ -2,23 +2,30 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-6">
-      <div className="max-w-6xl mx-auto space-y-10">
+    <section
+      id="about"
+      className="relative overflow-hidden bg-slate-950 py-24 px-6"
+    >
+      <div className="pointer-events-none absolute inset-x-0 -top-24 -z-10 mx-auto h-72 max-w-3xl rounded-full bg-primary/18 blur-3xl" />
+      <div className="pointer-events-none absolute -left-28 bottom-0 -z-10 h-72 w-72 rounded-full bg-yellow-400/18 blur-3xl" />
+      <div className="pointer-events-none absolute -right-32 top-10 -z-10 h-72 w-72 rounded-full bg-indigo-700/40 blur-3xl" />
+
+      <div className="mx-auto max-w-6xl space-y-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.4 }}
           transition={{ duration: 0.6 }}
-          className="text-center space-y-3"
+          className="space-y-3 text-center"
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-yellow-500 bg-yellow-400/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-yellow-500">
             About Me
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-blue-300">
+          <h2 className="text-3xl font-extrabold tracking-tight text-blue-300 md:text-4xl">
             A little bit about
             <span className="text-yellow-300"> who I am</span>
           </h2>
-          <p className="max-w-2xl mx-auto text-sm md:text-base text-slate-500">
+          <p className="mx-auto max-w-2xl text-sm text-slate-300 md:text-base">
             Informatics student who loves turning ideas into beautiful, responsive
             interfaces. I enjoy blending clean code with thoughtful design to
             create experiences that feel intuitive and delightful.
@@ -30,9 +37,9 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7 }}
-          className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-yellow-300 via-amber-400 to-indigo-700 p-[1px] shadow-2xl"
+          className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-yellow-300 via-amber-400 to-indigo-700 p-[1px] shadow-2xl shadow-yellow-500/30"
         >
-          <div className="relative grid gap-10 bg-slate-950/90 p-10 md:grid-cols-[minmax(0,1.2fr)_minmax(0,1.5fr)]">
+          <div className="relative grid gap-10 bg-slate-950/95 p-8 md:grid-cols-[minmax(0,1.2fr)_minmax(0,1.5fr)] md:p-10">
             <div className="flex flex-col items-center justify-center gap-6">
               <motion.div
                 initial={{ opacity: 0, scale: 0.9, rotate: -4 }}
@@ -69,7 +76,7 @@ export default function About() {
                 </motion.div>
               </motion.div>
 
-              <div className="grid w-full grid-cols-2 gap-4 text-xs md:text-sm text-slate-200/90">
+              <div className="grid w-full grid-cols-2 gap-4 text-xs text-slate-200/90 md:text-sm">
                 <div className="rounded-2xl border border-white/5 bg-slate-900/40 px-4 py-3">
                   <p className="text-[0.7rem] uppercase tracking-[0.18em] text-slate-50">
                     Focus Area
@@ -91,16 +98,21 @@ export default function About() {
                 <h3 className="text-2xl md:text-3xl font-bold tracking-tight">
                   Building experiences, not just interfaces.
                 </h3>
-                <p className="text-sm md:text-base text-slate-200/90 leading-relaxed">
-                  I enjoy working with modern tools like Laravel, React, Bootstrap CSS, and Tailwind CSS to
-                  craft responsive layouts, reusable components, and smooth
-                  interactions. For me, a good product is not only visually
-                  appealing, but also accessible, fast, and pleasant to use.
+                <p className="text-sm leading-relaxed text-slate-200/90 md:text-base">
+                  I enjoy working with modern tools like Laravel, React, Bootstrap and Tailwind CSS to
+                  craft responsive layouts, reusable components, and smooth interactions.
+                  I also focus on understanding business requirements and translating them
+                  into practical digital solutions, ensuring that every feature delivers
+                  real value for users and stakeholders. For me, a good product is not only
+                  visually appealing, but also accessible, efficient, and aligned with
+                  business goals.
                 </p>
-                <p className="text-sm md:text-base text-slate-200/80 leading-relaxed">
-                  Outside of coding, I like exploring UI/UX concepts, learning new
-                  design patterns, and experimenting with micro-interactions that
-                  make an interface feel alive.
+
+                <p className="text-sm leading-relaxed text-slate-200/80 md:text-base">
+                  Outside of coding, I enjoy exploring UI/UX concepts, learning design
+                  patterns, and analyzing user needs and workflows. I am interested in the
+                  intersection between technology and business, where thoughtful analysis
+                  helps create meaningful and impactful user experiences.
                 </p>
               </div>
 

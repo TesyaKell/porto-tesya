@@ -72,7 +72,7 @@ export default function Hero() {
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
               <span className="h-2 w-2 rounded-full bg-emerald-400" />
-              Focused on front-end, UI, and interactions
+              Focused on front-end, UI, business analyst
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
               ✨ Laravel · React · Tailwind · Bootstrap 
