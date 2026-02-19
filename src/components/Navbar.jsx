@@ -89,7 +89,7 @@ export default function Navbar() {
                   ${
                     isActive
                       ? "text-primary"
-                      : "text-slate-600 hover:text-primary"
+                      : "text-white hover:text-primary"
                   }`}
               >
                 {isActive && (
