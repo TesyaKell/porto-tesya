@@ -67,7 +67,7 @@ const projects = [
 
   {
     title: "Atma Salon [Salon Booking App]",
-    category: "Mobile & Web App",
+    category: "Mobile App",
     description:
       "Mobile & web-based reservation platform that makes it easier for customers to book salon services.",
     stack: ["Flutter", "REST API"],
