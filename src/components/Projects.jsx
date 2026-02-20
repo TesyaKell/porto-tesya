@@ -9,6 +9,7 @@ const projects = [
       "A web-based inventory and loan management system designed to record inter-department equipment borrowing, featuring scheduling and return reminders to ensure organized tracking and proper item placement.",
     stack: ["React", "Laravel", "Tailwind"],
     role: "Front-End Implementation & UI Design",
+    badges: ["Fullstack", "UI/UX Designer"],
     images: [
       "/projects/SIMBA1.png",
       "/projects/SIMBA2.png",
@@ -22,6 +23,7 @@ const projects = [
       "A mobile and web-based e-commerce platform for buying and selling pre-owned items in good condition, featuring delivery services to simplify transactions between sellers and buyers.",
     stack: ["Laravel", "Bootstrap", "Flutter", "REST API"],
     role: "Prototype & UX Flow",
+    badges: ["Fullstack", "UI/UX Designer"],
     images: [
       "/projects/reusemart1.png",
       "/projects/reusemart2.png",
@@ -39,6 +41,7 @@ const projects = [
       "A UI/UX design project for a mental health self-care application, created in Figma to help users manage and improve their mental well-being independently.",
     stack: ["Figma"],
     role: "Prototype & UX Flow",
+    badges: ["UI/UX Designer"],
     images: [
       "/projects/mentalku1.png",
       "/projects/mentalku2.png",
@@ -53,6 +56,7 @@ const projects = [
       "A web-based psychotest application that helps users assess their mathematical abilities through interactive tests.",
     stack: ["React", "Bootstrap CSS"],
     role: "Prototype & UX Flow",
+    badges: ["Frontend"],
     images: [
       "/projects/math1.png",
       "/projects/math2.png",
@@ -68,6 +72,7 @@ const projects = [
       "Mobile & web-based reservation platform that makes it easier for customers to book salon services.",
     stack: ["Flutter", "REST API"],
     role: "Prototype & UX Flow",
+    badges: ["Fullstack", "UI/UX Designer"],
     images: [
       "/projects/salon1.png",
       "/projects/salon2.png",
@@ -82,6 +87,7 @@ const projects = [
       "A web-based reservation platform that allows customers to purchase medicines online and book pharmacy services more conveniently.",
     stack: ["Laravel", "Bootstrap CSS"],
     role: "Prototype & UX Flow",
+    badges: ["Fullstack", "UI/UX Designer"],
     images: [
       "/projects/apotek1.png",
       "/projects/apotek5.png",
@@ -222,6 +228,21 @@ export default function Projects() {
                   <h3 className="text-lg font-semibold text-white">
                     {project.title}
                   </h3>
+
+                  <div className="mt-1 flex flex-wrap gap-2 text-[11px]">
+                    <span className="rounded-full border border-slate-700 bg-slate-800 px-2 py-0.5 uppercase tracking-wide text-[10px] text-slate-300">
+                      {project.category}
+                    </span>
+
+                    {project.badges?.map((badge) => (
+                      <span
+                        key={badge}
+                        className="rounded-full border border-primary/40 bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary"
+                      >
+                        {badge}
+                      </span>
+                    ))}
+                  </div>
 
                   <p className="mt-2 text-sm text-slate-300">
                     {project.description}

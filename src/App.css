@@ -44,3 +44,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+@media print {
+  body {
+    background: white;
+  }
+
+  nav, footer, button {
+    display: none;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
+
