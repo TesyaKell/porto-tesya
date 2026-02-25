@@ -92,67 +92,77 @@ export default function Hero() {
               <img
                 src="https://cdn.simpleicons.org/laravel/FF2D20"
                 alt="Laravel"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/react/61DAFB"
                 alt="React"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/tailwindcss/06B6D4"
                 alt="Tailwind CSS"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/bootstrap/7952B3"
                 alt="Bootstrap"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/php/777BB4"
                 alt="PHP"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/html5/E34F26"
                 alt="HTML5"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/javascript/F7DF1E"
                 alt="JavaScript"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/dart/0175C2"
                 alt="Dart"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/flutter/02569B"
                 alt="Flutter"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/selenium/43B02A"
                 alt="Selenium"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/postman/FF6C37"
                 alt="Postman"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/mysql/4479A1"
                 alt="SQL / MySQL"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
               <img
                 src="https://cdn.simpleicons.org/jupyter/F37626"
                 alt="Jupyter"
-                className="h-6 w-6 rounded-full bg-white/5 p-1"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/figma/F24E1E"
+                alt="Figma"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/python/3776AB"
+                alt="Python"
+                className="h-8 w-8 rounded-full bg-white/5 p-1"
               />
             </div>
           </motion.div>

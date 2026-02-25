@@ -82,6 +82,7 @@ export default function About() {
                     Focus Area
                   </p>
                   <p className="font-semibold text-white">Front-end Development</p>
+                  <p className="font-semibold text-white">Quality Assurance</p>
                   <p className="font-semibold text-white">Business Analyst</p>
                 </div>
                 <div className="rounded-2xl border border-white/5 bg-slate-900/40 px-4 py-3">
@@ -99,20 +100,17 @@ export default function About() {
                   Building experiences, not just interfaces.
                 </h3>
                 <p className="text-sm leading-relaxed text-slate-200/90 md:text-base">
-                  I enjoy working with modern tools like Laravel, React, Bootstrap and Tailwind CSS to
-                  craft responsive layouts, reusable components, and smooth interactions.
-                  I also focus on understanding business requirements and translating them
-                  into practical digital solutions, ensuring that every feature delivers
-                  real value for users and stakeholders. For me, a good product is not only
-                  visually appealing, but also accessible, efficient, and aligned with
-                  business goals.
+                  I enjoy working with modern tools like Laravel, React, Bootstrap, and 
+                  Tailwind CSS to build responsive, reusable, and user-friendly applications. 
+                  I focus on translating business requirements into practical digital solutions 
+                  that deliver real value. For me, a good product is not only visually appealing, 
+                  but also accessible, efficient, aligned with business goals, and thoroughly tested. 
+                  I apply Quality Assurance principles by validating features through structured testing 
+                  to ensure reliability and optimal user experience.
                 </p>
 
                 <p className="text-sm leading-relaxed text-slate-200/80 md:text-base">
-                  Outside of coding, I enjoy exploring UI/UX concepts, learning design
-                  patterns, and analyzing user needs and workflows. I am interested in the
-                  intersection between technology and business, where thoughtful analysis
-                  helps create meaningful and impactful user experiences.
+                  Outside of coding, I explore UI/UX concepts, design patterns, and user workflows. I am interested in software quality and automation testing, where systematic validation improves system stability and development efficiency. I am especially drawn to the intersection of technology and business, where thoughtful analysis and quality practices create reliable and impactful user experiences.
                 </p>
               </div>
 
@@ -122,9 +120,10 @@ export default function About() {
                     What I love working with
                   </p>
                   <ul className="space-y-1 text-sm text-slate-200/90">
-                    <li>• Component-based front-end architecture</li>
+                    <li>• Component based front-end architecture</li>
                     <li>• Clean, semantic, and maintainable code</li>
-                    <li>• Smooth, subtle motion & transitions</li>
+                    <li>• Business requirement analysis & workflow mapping</li>
+                    <li>• Functional validation & Quality Assurance practices</li>
                   </ul>
                 </div>
                 <div className="space-y-2 rounded-2xl border border-white/5 bg-slate-900/50 p-4">
@@ -139,7 +138,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex flex-wrap items-center gap-3 md:gap-4">
+              {/* <div className="flex flex-wrap items-center gap-3 md:gap-4">
                 <span className="rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs md:text-sm font-medium text-slate-50 backdrop-blur">
                   Laravel
                 </span>
@@ -161,9 +160,9 @@ export default function About() {
                 <span className="rounded-full border border-white/15 bg-white/10 px-4 py-1.5 text-xs md:text-sm font-medium text-slate-50 backdrop-blur">
                   UI/UX Thinking
                 </span>
-              </div>
+              </div> */}
 
-              <div className="mt-2 flex flex-wrap gap-3">
+              {/* <div className="mt-2 flex flex-wrap gap-3">
                 <a
                   href="#projects"
                   className="inline-flex items-center justify-center rounded-full bg-yellow-300 px-6 py-2.5 text-xs md:text-sm font-semibold text-slate-900 shadow-lg shadow-yellow-500/40 transition hover:-translate-y-0.5 hover:bg-yellow-200"
@@ -176,7 +175,7 @@ export default function About() {
                 >
                   Let&apos;s collaborate
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="pointer-events-none absolute -top-24 -right-20 h-64 w-64 rounded-full bg-yellow-400/25 blur-3xl" />
