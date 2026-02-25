@@ -78,6 +78,84 @@ export default function Hero() {
               ✨ Laravel · React · Tailwind · Bootstrap 
             </span>
           </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, delay: 0.35 }}
+            className="mt-4 space-y-2 text-xs text-slate-300/90"
+          >
+            <p className="uppercase tracking-[0.22em] text-[10px] text-slate-400">
+              Tech & Tools
+            </p>
+            <div className="flex flex-wrap items-center gap-3">
+              <img
+                src="https://cdn.simpleicons.org/laravel/FF2D20"
+                alt="Laravel"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/react/61DAFB"
+                alt="React"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/tailwindcss/06B6D4"
+                alt="Tailwind CSS"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/bootstrap/7952B3"
+                alt="Bootstrap"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/php/777BB4"
+                alt="PHP"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/html5/E34F26"
+                alt="HTML5"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/javascript/F7DF1E"
+                alt="JavaScript"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/dart/0175C2"
+                alt="Dart"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/flutter/02569B"
+                alt="Flutter"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/selenium/43B02A"
+                alt="Selenium"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/postman/FF6C37"
+                alt="Postman"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/mysql/4479A1"
+                alt="SQL / MySQL"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+              <img
+                src="https://cdn.simpleicons.org/jupyter/F37626"
+                alt="Jupyter"
+                className="h-6 w-6 rounded-full bg-white/5 p-1"
+              />
+            </div>
+          </motion.div>
         </div>
 
         <motion.div
