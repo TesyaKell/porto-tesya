@@ -35,6 +35,34 @@ const projects = [
     ],
   },
   {
+    title: "Automation Testing – Magento E-Commerce Checkout Flow",
+    category: "Automation Testing",
+    description:
+      "Automation testing project focused on end-to-end (E2E) functional testing of an e-commerce website using Selenium WebDriver and Java to validate critical checkout business workflows.",
+    stack: ["Java", "Selenium WebDriver", "ChromeDriver", "WebDriverWait", "XPath & CSS Selectors", "Test Automation"],
+    role: "Automation Tester",
+    badges: ["Automation Tester"],
+    images: [
+      "/projects/carbon3.png",
+      "/projects/carbon1.png",
+    ],
+  },
+  {
+    title: "E-Commerce Website Automation Testing Using Selenium",
+    category: "Automation Testing",
+    description:
+      "This project is a Quality Assurance (QA) automation testing project focused on functional testing of an e-commerce web application using Selenium WebDriver and Java to validate login, product listing, and shopping cart functionalities.",
+    stack: ["Java", "Selenium WebDriver", "ChromeDriver", "XPath Locator", "Test Automation"],
+    role: "Automation Tester",
+    badges: ["Automation Tester"],
+    images: [
+      "/projects/sel1.png",
+      "/projects/sel2.png",
+      "/projects/sel3.png",
+    ],
+  },
+  
+  {
     title: "Desain UI/UX MentalKu App",
     category: "UI/UX Design",
     description:
@@ -271,3 +299,5 @@ export default function Projects() {
     </section>
   );
 }
+
+
