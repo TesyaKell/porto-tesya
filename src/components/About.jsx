@@ -52,7 +52,7 @@ export default function About() {
                 <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-yellow-300/60 via-amber-400/40 to-indigo-500/60 blur-2xl" />
                 <div className="relative rounded-3xl bg-slate-900/80 p-3 ring-1 ring-white/10">
                   <img
-                    src="/about.png"
+                    src="/mukaku.jpeg"
                     alt="Profile"
                     className="w-56 h-56 md:w-64 md:h-64 rounded-2xl object-cover shadow-xl shadow-black/40"
                   />
