@@ -5,7 +5,7 @@ const experiences = [
     title: "IT System Support Plantation",
     company: "Internship at Great Giant Foods (GGF)",
     image: "/ggf.png",
-    period: "September 2025 – Present",
+    period: "September 2025 – Maret 2026",
     location: "Lampung, Indonesia",
     highlight:
       "Bridging communication between business needs and technical implementation.",
