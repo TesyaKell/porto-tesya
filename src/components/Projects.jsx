@@ -7,13 +7,24 @@ const projects = [
     category: "Web App",
     description:
       "A web-based inventory and loan management system designed to record inter-department equipment borrowing, featuring scheduling and return reminders to ensure organized tracking and proper item placement.",
-    stack: ["React", "Laravel", "Tailwind"],
-    role: "Front-End Implementation & UI Design",
-    badges: ["Fullstack", "UI/UX Designer"],
+    stack: ["React", "Laravel", "Tailwind", "REST API"],
+    badges: ["System Analyst", "Fullstack", "UI/UX Designer"],
     images: [
       "/projects/SIMBA1.png",
       "/projects/SIMBA2.png",
       "/projects/SIMBA3.png",
+    ],
+  },
+  {
+    title: "Rekomendasi IT",
+    category: "Web App",
+    description:
+      "A web-based desktop application developed to streamline equipment purchase and repair requests",
+    stack: ["Laravel", "Bootstrap", "REST API"],
+    badges: ["System Analyst", "Frontend Developer", "UI/UX Designer"],
+    images: [
+      "/projects/rekom1.png",
+      "/projects/rekom3.png",
     ],
   },
   {
@@ -22,8 +33,7 @@ const projects = [
     description:
       "A mobile and web-based e-commerce platform for buying and selling pre-owned items in good condition, featuring delivery services to simplify transactions between sellers and buyers.",
     stack: ["Laravel", "Bootstrap", "Flutter", "REST API"],
-    role: "Prototype & UX Flow",
-    badges: ["Fullstack", "UI/UX Designer"],
+    badges: ["System Analyst", "Fullstack", "UI/UX Designer"],
     images: [
       "/projects/reusemart1.png",
       "/projects/reusemart2.png",
@@ -40,7 +50,6 @@ const projects = [
     description:
       "Automation testing project focused on end-to-end (E2E) functional testing of an e-commerce website using Selenium WebDriver and Java to validate critical checkout business workflows.",
     stack: ["Java", "Selenium WebDriver", "ChromeDriver", "WebDriverWait", "XPath & CSS Selectors", "Test Automation"],
-    role: "Automation Tester",
     badges: ["Automation Tester"],
     images: [
       "/projects/carbon3.png",
@@ -53,7 +62,6 @@ const projects = [
     description:
       "This project is a Quality Assurance (QA) automation testing project focused on functional testing of an e-commerce web application using Selenium WebDriver and Java to validate login, product listing, and shopping cart functionalities.",
     stack: ["Java", "Selenium WebDriver", "ChromeDriver", "XPath Locator", "Test Automation"],
-    role: "Automation Tester",
     badges: ["Automation Tester"],
     images: [
       "/projects/sel1.png",
@@ -68,7 +76,6 @@ const projects = [
     description:
       "A UI/UX design project for a mental health self-care application, created in Figma to help users manage and improve their mental well-being independently.",
     stack: ["Figma"],
-    role: "Prototype & UX Flow",
     badges: ["UI/UX Designer"],
     images: [
       "/projects/mentalku1.png",
@@ -83,7 +90,6 @@ const projects = [
     description:
       "A web-based psychotest application that helps users assess their mathematical abilities through interactive tests.",
     stack: ["React", "Bootstrap CSS"],
-    role: "Prototype & UX Flow",
     badges: ["Frontend"],
     images: [
       "/projects/math1.png",
@@ -99,7 +105,6 @@ const projects = [
     description:
       "Mobile & web-based reservation platform that makes it easier for customers to book salon services.",
     stack: ["Flutter", "REST API"],
-    role: "Prototype & UX Flow",
     badges: ["Fullstack", "UI/UX Designer"],
     images: [
       "/projects/salon1.png",
@@ -114,7 +119,6 @@ const projects = [
     description:
       "A web-based reservation platform that allows customers to purchase medicines online and book pharmacy services more conveniently.",
     stack: ["Laravel", "Bootstrap CSS"],
-    role: "Prototype & UX Flow",
     badges: ["Fullstack", "UI/UX Designer"],
     images: [
       "/projects/apotek1.png",
@@ -286,10 +290,6 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-
-                  <p className="mt-3 text-xs text-slate-400">
-                    {project.role}
-                  </p>
                 </div>
               </motion.article>
             );

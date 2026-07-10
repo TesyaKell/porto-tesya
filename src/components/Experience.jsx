@@ -9,9 +9,9 @@ const experiences = [
     location: "Lampung, Indonesia",
     highlight:
       "Bridging communication between business needs and technical implementation.",
-    badge: "Current Role",
+    badge: "Past Role",
     badgeColor:
-      "bg-emerald-100 text-emerald-800 border border-emerald-200 shadow-sm shadow-emerald-100/80",
+      "bg-sky-100 text-sky-800 border border-sky-200 shadow-sm shadow-sky-100/80",
     points: [
       "Collaborate with business and technical teams to understand requirements and translate them into clear, actionable tasks.",
       "Support system development, testing, and troubleshooting to maintain reliable and stable internal applications.",
@@ -232,10 +232,10 @@ export default function Experience() {
           </div>
 
           <div className="flex flex-col items-start gap-2 text-xs text-slate-500 md:items-end">
-            <span className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1 text-[11px] font-medium text-emerald-700 shadow-sm shadow-emerald-100">
+            {/* <span className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1 text-[11px] font-medium text-emerald-700 shadow-sm shadow-emerald-100">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
               Currently working in IT System Support
-            </span>
+            </span> */}
             <p className="text-[11px] md:text-right text-slate-300">
               Comfortable collaborating with both technical and non-technical teams.
             </p>

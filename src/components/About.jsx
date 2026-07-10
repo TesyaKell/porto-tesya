@@ -121,7 +121,6 @@ export default function About() {
                   </p>
                   <ul className="space-y-1 text-sm text-slate-200/90">
                     <li>• Component based front-end architecture</li>
-                    <li>• Clean, semantic, and maintainable code</li>
                     <li>• Business requirement analysis & workflow mapping</li>
                     <li>• Functional validation & Quality Assurance practices</li>
                   </ul>
