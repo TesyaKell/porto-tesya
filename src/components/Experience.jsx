@@ -13,10 +13,10 @@ const experiences = [
     badgeColor:
       "bg-sky-100 text-sky-800 border border-sky-200 shadow-sm shadow-sky-100/80",
     points: [
-      "Collaborate with business and technical teams to understand requirements and translate them into clear, actionable tasks.",
-      "Support system development, testing, and troubleshooting to maintain reliable and stable internal applications.",
-      "Assist frontend implementation and help refine user experience for internal tools and dashboards.",
-    ],
+      "Collaborate with business and technical teams to analyze requirements and design effective system solutions.",
+      "Implement and maintain full-stack features, including frontend interfaces, backend services, API integrations, and database operations.",
+      "Conduct testing, troubleshooting, and user experience enhancements to ensure stable and user-friendly internal applications.",
+    ]
   },
   {
     title: "Lecturer Assistant for Object Oriented Programming Batch 2024/2025",

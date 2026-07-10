@@ -39,9 +39,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.12 }}
             className="max-w-xl text-base text-slate-200/90 md:text-lg"
           >
-            Front-End Developer &amp; Informatics Student who loves crafting
-            clean, responsive interfaces and smooth user experiences using Laravel, React,
-            and modern web technologies.
+            Software Developer & Informatics Student at Atma Jaya Yogyakarta University 
+            passionate about developing end-to-end software solutions, from system analysis and business process design to 
+            building responsive applications and intuitive user experiences using Laravel, React, and modern technologies.
           </motion.p>
 
           <motion.div
@@ -72,7 +72,7 @@ export default function Hero() {
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
               <span className="h-2 w-2 rounded-full bg-emerald-400" />
-              Focused on front-end, UI, business analyst
+              Focused on software development, system analysis, and UI/UX design
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
               ✨ Laravel · React · Tailwind · Bootstrap 
@@ -185,14 +185,13 @@ export default function Hero() {
                   <span className="font-medium">Portfolio Snapshot</span>
                 </span>
                 <span className="rounded-full bg-slate-800/80 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-slate-400">
-                  Front-End
+                  Fullstack Developer
                 </span>
               </div>
 
               <div className="space-y-3 text-left text-sm text-slate-200/90">
                 <p>
-                  Passionate about building interfaces that feel modern, polished,
-                  and easy to use.
+                  Passionate about turning business requirements into well-designed and impactful software solutions.
                 </p>
                 <div className="grid grid-cols-3 gap-2 text-[11px]">
                   <div className="rounded-2xl bg-slate-900/80 px-3 py-2">
@@ -205,7 +204,7 @@ export default function Hero() {
                   </div>
                   <div className="rounded-2xl bg-slate-900/80 px-3 py-2">
                     <p className="text-slate-400">Focus</p>
-                    <p className="font-semibold">UI · UX · Motion</p>
+                    <p className="font-semibold">Development · Analysis · UI/UX</p>
                   </div>
                 </div>
               </div>

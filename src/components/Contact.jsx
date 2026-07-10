@@ -41,8 +41,7 @@ export default function Contact() {
           <div className="space-y-5">
             <div className="rounded-3xl border border-white/10 bg-slate-900/60 p-6 shadow-xl shadow-black/40 backdrop-blur">
               <p className="mb-4 text-sm text-slate-200">
-                I&apos;m open to internship opportunities, freelance work, or
-                collaborative projects related to front-end development, UI/UX, and Business Analyst.
+                I&apos;m open to full-time opportunities, freelance work, and collaborative projects in software development, system analysis, and UI/UX design.
               </p>
               <div className="space-y-3 text-sm">
                 <a
@@ -96,14 +95,13 @@ export default function Contact() {
                 Quick note
               </p>
               <p className="mb-6 text-sm leading-relaxed text-slate-100">
-                I enjoy collaborating on projects that combine clean design, thoughtful
-                user experience, and clear communication. If you're building something
-                meaningful in front-end development, UI/UX, or product collaboration,
-                I&apos;d be happy to connect.
+                I enjoy collaborating on projects that transform business needs into reliable
+                and user-friendly software solutions. If you're building meaningful products in
+                full-stack development, system analysis, or UI/UX design, I&apos;d be happy to connect.
               </p>
               <div className="flex flex-wrap gap-2 text-xs">
                 <span className="rounded-full bg-white/5 px-3 py-1 text-slate-200">
-                  Front-End Development
+                  Full-Stack Development
                 </span>
                 <span className="rounded-full bg-white/5 px-3 py-1 text-slate-200">
                   UI/UX Collaboration
