@@ -71,7 +71,7 @@ export default function Navbar() {
               Tesya Rakhel
             </p>
             <p className="text-[11px] uppercase tracking-[0.2em] text-yellow-400">
-              Front-End Developer
+              SoftwareDeveloper
             </p>
           </div>
         </a>
